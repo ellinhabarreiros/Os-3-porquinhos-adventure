@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>A Aventura dos Três Porquinhos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="passo0.jpg" alt="Três porquinhos felizes">
+            <p>Era uma vez três porquinhos que decidiram construir suas casas para se proteger do lobo mau. Cada um tinha sua própria ideia sobre como construir a casa perfeita.</p>
+            <button class="btn-proximo" data-proximo="1">Construir uma casa de palha</button>
+            <button class="btn-proximo" data-proximo="2">Construir uma casa de madeira</button>
+            <button class="btn-proximo" data-proximo="3">Construir uma casa de tijolos</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>O primeiro porquinho decide construir sua casa de palha. Ele termina rapidamente e vai brincar. Mas o lobo mau logo aparece!</p>
+            <button class="btn-proximo" data-proximo="4">Abrir a porta</button>
+            <button class="btn-proximo" data-proximo="5">Fugir para a casa do segundo porquinho</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>O segundo porquinho constrói sua casa de madeira. É mais resistente, mas não tanto quanto ele gostaria. O lobo mau logo aparece!</p>
+            <button class="btn-proximo" data-proximo="6">Abrir a porta</button>
+            <button class="btn-proximo" data-proximo="7">Fugir para a casa do terceiro porquinho</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>O terceiro porquinho, mais cauteloso, constrói uma casa de tijolos. É forte e segura, mas leva mais tempo. O lobo mau, no entanto, já está a caminho!</p>
+            <button class="btn-proximo" data-proximo="8">Esperar o lobo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>O primeiro porquinho abre a porta e o lobo soprou a casa de palha com facilidade! Ele correu para a casa do segundo porquinho.</p>
+            <button class="btn-proximo" data-proximo="2">Ir para a casa de madeira</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O primeiro porquinho foge para a casa do segundo porquinho. Eles se trancam, mas o lobo mau logo chega!</p>
+            <button class="btn-proximo" data-proximo="6">Abrir a porta</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O segundo porquinho abre a porta e o lobo soprou a casa de madeira! Os dois porquinhos correm para a casa do terceiro porquinho.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a casa de tijolos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O segundo porquinho decide fugir para a casa do terceiro porquinho. Eles se trancam, mas o lobo mau está perto!</p>
+            <button class="btn-proximo" data-proximo="8">Esperar o lobo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Na casa de tijolos, o lobo chega e tenta soprar a casa, mas não consegue! Ele fica tão frustrado que decide tentar entrar pela chaminé.</p>
+            <button class="btn-proximo" data-proximo="9">Preparar uma armadilha</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Os três porquinhos preparam uma armadilha e quando o lobo desce pela chaminé, ele cai direto na panela com água fervente!</p>
+            <button class="btn-proximo" data-proximo="10">Celebrar a vitória</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="passo10.jpg" alt="Porquinhos celebrando">
+            <p>Os três porquinhos comemoram sua vitória! Eles aprenderam a importância de trabalhar juntos e de construir casas seguras.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
